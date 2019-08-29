@@ -8,9 +8,8 @@
     "start": "next start",
     "build": "next build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Spencer Kaiser <spencer.kaiser@aa.com>, John Kahn <john.kahn@aa.com>",
+  "license": "MIT",
   "dependencies": {
     "next": "^9.0.5",
     "react": "^16.9.0",

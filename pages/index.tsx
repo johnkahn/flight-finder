@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default () => {
-  return <h1>Hello Next.js!</h1>;
+  return <h1 className="mt5">Howdy TAMU! 👋</h1>;
 };
