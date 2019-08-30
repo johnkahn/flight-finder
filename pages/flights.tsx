@@ -9,7 +9,7 @@ export default () => {
   console.log(flights);
 
   const submitHandler = async () => {
-    const response = await fetch(`http://sk-node.ngrok.io/flights?origin=${origin}&destination=${destination}&date=${date}`);
+    const response = await fetch(`http://localhost:3030/flights?origin=${origin}&destination=${destination}&date=${date}`);
     const data = await response.json();
     setFlights(data);
   };
